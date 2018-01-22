@@ -38,7 +38,7 @@ public class HomeController {
 
 		System.out.println("내가 하면 ㄷ잘 됀다고 ㅡㅜ");
 		
-		System.out.println("ee");
+		System.out.println("eeeeeeeee");
 		return "home";
 	}
 	
