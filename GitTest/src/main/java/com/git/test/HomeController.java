@@ -37,10 +37,9 @@ public class HomeController {
 		System.out.println("쎾쓰 커밍아웃");
 
 		System.out.println("내가 하면 ㄷ잘 됀다고 ㅡㅜ");
-		
-		System.out.println("ee");
-		
+		System.out.println("ee");	
 		System.out.println("담배 ㄱ");
+		System.out.println("eeeeeeee...eqqq");
 		return "home";
 	}
 	
