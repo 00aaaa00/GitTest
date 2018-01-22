@@ -3,6 +3,6 @@ package com.git.test;
 public class test {
 	private void syso() {
 		// TODO Auto-generated method stub
-		System.out.println("테스트");
+		System.out.println("테스트1");
 	}
 }
