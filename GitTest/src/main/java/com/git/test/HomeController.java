@@ -32,14 +32,8 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		System.out.println("나는 돼지만 ... 휴 씨발!");
+		System.out.println("나는 돼지만 ... 휴 ");
 
-		System.out.println("쎾쓰 커밍아웃");
-
-		System.out.println("내가 하면 ㄷ잘 됀다고 ㅡㅜ");
-		System.out.println("ee");	
-		System.out.println("담배 ㄱ");
-		System.out.println("eeeeeeee...eqqq");
 		return "home";
 	}
 	
