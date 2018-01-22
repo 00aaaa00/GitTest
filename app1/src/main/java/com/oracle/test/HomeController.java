@@ -1,4 +1,4 @@
-package com.git.test;
+package com.oracle.test;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -32,13 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		System.out.println("나는 돼지만 ... 휴 씨발!");
-
-		System.out.println("쎾쓰 커밍아웃");
-
-		System.out.println("내가 하면 ㄷ잘 됀다고 ㅡㅜ");
 		
-		System.out.println("ee");
 		return "home";
 	}
 	
