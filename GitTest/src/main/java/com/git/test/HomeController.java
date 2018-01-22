@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-
+	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
@@ -30,7 +30,7 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 
 		String formattedDate = dateFormat.format(date);
-
+		System.out.println("À×");
 		model.addAttribute("serverTime", formattedDate);
 		System.out.println("³ª´Â µÅÁö¸¸ ... ÈÞ ");
 		System.out.println("À×");
